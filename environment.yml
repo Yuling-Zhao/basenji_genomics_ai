@@ -1,0 +1,38 @@
+name: basenji_genomics_ai
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - python=3.8
+  - pip
+  # Core scientific computing
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  # Genomic data processing
+  - h5py
+  - pybigwig
+  - pysam
+  - pybedtools
+  - cooler
+  # Additional utilities
+  - astropy
+  - joblib
+  - natsort
+  - networkx
+  - pillow
+  - statsmodels
+  - tabulate
+  - intervaltree
+  - cython
+  - packaging
+  - pip:
+    - mlflow>=2.0.0
+    - tensorflow-cpu>=2.8.0
+    - cooltools
+    - qnorm

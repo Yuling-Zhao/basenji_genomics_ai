@@ -1,0 +1,3 @@
+astropy, cooler, cooltools, h5py, joblib, intervaltree, 
+        matplotlib, natsort, networkx, numpy, pandas, pillow, pybigwig, pysam, 
+        pybedtools, qnorm, seaborn, scikit-learn, scipy, statsmodels, tabulate
