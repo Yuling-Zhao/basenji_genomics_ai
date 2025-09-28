@@ -80,5 +80,5 @@ pytest tests/
 
 ## 👩‍💻 Author
 **Yuling Zhao**  
-PhD Candidate, MPI of Immunobiology & Epigenetics  
+Doctoral researcher, MPI of Immunobiology & Epigenetics  
 Focus: Chromatin dynamics, epigenetics, and machine learning for genomics  
