@@ -42,7 +42,7 @@ wait after the project completed
 ### Quickstart (file-based tracking)
 1. Run a script that logs to MLflow:
    ```bash
-   python scripts/tracking/track_project_creation.py
+   python scripts/tracking/project_creation_tracker.py
    ```
 
 2. Launch the MLflow UI:
