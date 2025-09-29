@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.eggs/
+
+# Data files - LARGE FILES, DO NOT COMMIT
+*.h5
+*.hdf5
+*.bw
+*.bigwig
+*.bam
+*.bai
+*.fa
+*.fai
+*.tgz
+*.tar.gz
+*.zip
+
+# Model files
+models/heart/
+*.ckpt
+*.pth
+
+# Output directories
+output/
+results/
+predictions/
+
+# Plot files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/

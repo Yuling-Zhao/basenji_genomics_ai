@@ -78,6 +78,13 @@ pytest tests/
 
 ---
 
+## Third-Party Code
+
+This project includes code from [Basenji](https://github.com/calico/basenji) 
+which is licensed under the Apache License 2.0.
+
+---
+
 ## 👩‍💻 Author
 **Yuling Zhao**  
 Doctoral researcher, MPI of Immunobiology & Epigenetics  
