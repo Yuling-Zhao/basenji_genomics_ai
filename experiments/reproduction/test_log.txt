@@ -1,0 +1,21 @@
+
+STDERR:
+2025-09-29 11:28:57.129890: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Cannot order TFRecords data/heart_l131k/tfrecords/test-*.tfr
+Traceback (most recent call last):
+  File "basenji_test.py", line 433, in <module>
+    main()
+  File "basenji_test.py", line 136, in main
+    eval_data = dataset.SeqDataset(data_dir,
+  File "/Users/library/Documents/ML_project/reference_git/basenji/basenji/dataset.py", line 66, in __init__
+    self.make_dataset()
+  File "/Users/library/Documents/ML_project/reference_git/basenji/basenji/dataset.py", line 121, in make_dataset
+    dataset = tf.data.Dataset.list_files(self.tfr_path)
+  File "/Users/library/opt/anaconda3/envs/basenji_genomics_ai/lib/python3.8/site-packages/tensorflow/python/data/ops/dataset_ops.py", line 1303, in list_files
+    assert_not_empty = control_flow_assert.Assert(
+  File "/Users/library/opt/anaconda3/envs/basenji_genomics_ai/lib/python3.8/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/Users/library/opt/anaconda3/envs/basenji_genomics_ai/lib/python3.8/site-packages/tensorflow/python/ops/control_flow_assert.py", line 102, in Assert
+    raise errors.InvalidArgumentError(
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Expected 'tf.Tensor(False, shape=(), dtype=bool)' to be true. Summarized data: b'No files matched pattern: data/heart_l131k/tfrecords/test-*.tfr'
