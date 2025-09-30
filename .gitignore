@@ -15,6 +15,7 @@ venv/
 *.egg-info/
 .eggs/
 mlruns/
+.mlruns
 
 # Data files - LARGE FILES, DO NOT COMMIT
 *.h5
