@@ -3,6 +3,10 @@
 .AppleDouble
 .LSOverride
 
+# MLflow - ignore in ALL directories
+**/mlruns/
+**/mlartifacts/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -14,8 +18,6 @@ venv/
 .venv/
 *.egg-info/
 .eggs/
-mlruns/
-.mlruns
 
 # Data files - LARGE FILES, DO NOT COMMIT
 *.h5
