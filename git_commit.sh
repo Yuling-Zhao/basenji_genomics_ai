@@ -7,15 +7,19 @@ echo "Starting Git commit process..."
 echo "Commit message: $COMMIT_MSG"
 
 # Add files
+git add .gitignore
 git add *.py
 git add *.ipynb  
 git add *.json
 git add *.md
-git add models/params_small.json
 
 # Show what will be committed
 echo "Files to be committed:"
 git status --short
+
+# Pull latest changes first
+echo "Pulling latest changes..."
+git pull origin main
 
 # Commit and push
 git commit -m "$COMMIT_MSG"
